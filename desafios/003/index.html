@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,14 +11,16 @@
         <h1>Vamos contar</h1>
     </header>
     <section>
-        
-          incio: <input type="number" name="inicio" id="iinicio">
-          <div>fim: <input type="number" name="fim" id="ifim"></div>
-          <div>Passo: <input type="number" name="Passo" id="ipasso"></div>
-          <div><input type="button" value="contar"></div>
-        <div>
-            contando...
+        <div id="dados">
+            <p>inicio: <input type="number" name="inicio" id="inc"></p>
+            <p>Fim: <input type="number" name="Fim" id="Fim"></p>
+            <P>Passo: <input type="number" name="Passo" id="ipss"></P>
+            <p><input type="button" value="Contar" onclick="contar()"></p>
         </div>
+        <div id="res">
+            preparando contagem
+        </div>
+        
     </section>
     <footer>
         Desenvolvido por EuSamuel
