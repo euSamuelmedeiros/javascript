@@ -13,9 +13,25 @@ function carregar() {
         let p = Number(pss.value)
         
         for(let c = i; c <= f; c += p) {
-            res.innerHTML += `${c} `
-            
+            res.innerHTML += `${c} `     
+        }
+    }
+} 
+    /*function carregar() {
+        let txin = document.getElementById('ini')
+        let txfim = document.getElementById('ifim')
+        let txpa = document.getElementById('ipasso')
+        let res = document.getElementById('res')
+
+        if (txin.value.length == 0 || txfim.value.length == 0 || txpa.value.length == 0) {
+            window.alert('erro, ainda falta dados!')
+        } else  {
+            let i = Number(txin.value)
+            let f = Number(txfim.value)
+            let p = Number(txpa.value)
         }
 
-    }
-}
+        for (let c = i; c <= f; c += p) {
+            res.innerHTML += `${c}`
+        }
+    } */
